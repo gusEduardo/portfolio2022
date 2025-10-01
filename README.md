@@ -11,4 +11,4 @@ I ended up doing only one project, a Landing Page redesign for an Internet Provi
 ![Screenshot of the portfolio's landing page](./IMGs/fullpages/landingPage.png)
 
 ### Case Study Page
-![Screenshot of the Behance case study page](./IMGs/fullpages/landingPage.png)
+![Screenshot of the Behance case study page](./IMGs/fullpages/caseStudy.png)
