@@ -1,0 +1,32 @@
+$primaryColor: #93FFF2
+$textColor: #000000
+$bgColor: #FFFFFF
+
+@mixin flexCenter() // use '@include' to use
+    display: flex
+    justify-content: center
+    align-items: center
+
+@mixin flexSpaceBetween() // use '@include' to use
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+@mixin headerFooterFont()
+    font-size: 18px
+    font-weight: 500
+    color: $textColor
+
+@mixin buttonBasic()
+    border: 2px solid $primaryColor
+    background: transparent
+    color: black
+    width: 150px
+    height: 40px
+    cursor: pointer
+    font-weight: 600
+    font-size: 1rem
+    transition: background .3s ease-in, font-weight .5s ease-in
+    &:hover
+        font-weight: 700
+        background: $primaryColor

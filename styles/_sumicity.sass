@@ -1,0 +1,147 @@
+.sumicity-main
+    @include flexCenter()
+    width: 50%
+    margin: auto
+    min-height: 90vh
+    text-align: center
+    padding-top: 80px
+    flex-flow: column
+
+.sumicity-intro
+    h1
+        font-size: 50px
+        font-weight: 600
+
+    p
+        font-size: 25px
+        font-weight: 300
+
+.sumicity-visaogeral
+    padding-top: 21vh
+
+    h1
+        font-size: 30px
+        font-weight: 700
+    h2
+        font-size: 25px
+        font-weight: 600
+        padding-top: 14px
+        text-align: left
+    p
+        font-size: 18px
+        font-weight: 400
+        text-align: left
+
+.scroll-downbtn
+    padding-top: 35px
+    a
+        text-decoration: none
+        color: $primaryColor
+        font-size: 25px
+        border-radius: 100%
+        border-color: $bgColor
+        border-style: solid
+        background-color: $bgColor
+        padding: 0 10px 0 10px
+        transition: .2s ease-out
+        &:hover
+            color: $bgColor
+            background-color: $primaryColor
+            border-color: $primaryColor
+
+.sumicity-detalhes
+    @include flexCenter()
+    margin: auto
+    padding-top: 88px
+    flex-flow: column
+    h2
+        font-size: 25px
+        font-weight: 400
+    h1
+        font-size: 30px
+        font-weight: 600
+        padding-bottom: 5px
+
+    p, ul
+        font-size: 20px
+        font-weight: 300
+        padding-top: 5px
+    ul
+        padding-left: 35px
+        margin-bottom: 30px
+
+.detalhes-personalidade
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 85%
+    margin: auto
+
+.personalidade
+    padding-top: 50px
+    text-align: center
+    max-height: 580px
+    h1
+        min-height: 80px
+        @include flexCenter
+    p
+        font-weight: 400
+    h2, ul
+        text-align: left
+    h2
+        padding-top: 16px
+        font-weight: 700
+        font-size: 20px
+        max-width: 400px
+    ul
+        font-weight: 400
+        max-width: 400px
+
+.definindo-ideias
+    margin-top: 188px
+    ul
+        padding-left: 55px
+
+.defPadding
+    padding-left: 20px
+
+.ulPadding
+    margin-left: -20px
+
+.solucoes-imagens
+    img
+        padding-top: 20px
+        max-width: 100%
+        margin-left: -20px
+        padding-bottom: 20px
+
+.prototyping
+    b
+        font-weight: 700
+
+.prototype-btn
+    padding: 40px 0 0 0
+
+.prototype-mainBTN
+    @include buttonBasic()
+    font-size: 15px
+    width: 270px
+    height: 52px
+
+.reflexoes
+    padding-top: 100px
+    @include flexCenter
+    flex-flow: column
+    text-align: center
+    h1
+        font-weight: 600
+        font-size: 36px
+    h2
+        font-weight: 500
+        font-size: 25px
+        padding-top: 16px
+    p, ul
+        text-align: center
+        font-weight: 400
+        font-size: 18px
+        max-width: 85%

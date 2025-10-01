@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="./IMGs/favicon.svg">
+    <title>Contato | Gustavo Eduardo</title>
+</head>
+<body class="container">
+    <header class="main-header">
+        <div class="logodiv">
+            <a href="/index.html" class="header-logo">
+                <img src="IMGs/Logo3.svg" alt="Logo">
+            </a>
+        </div>
+        <nav class="header-nav">
+            <div class="hamburger-nav">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a class="header-link" href="/index.html">Projetos</a></li>
+                <li><a class="header-link" href="/sobremim.html">Sobre Mim</a></li>
+                <li><a class="header-link" href="/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="contato-sect">
+                <div class="contato-text">
+                    <h1>Contato</h1>
+                    <p>
+                        Para entrar em contato comigo é muito fácil, você pode mandar um e-mail para
+                    </p>
+                    <p class="contato-email">
+                       <a href="mailto: uxgustavo@gmail.com">uxgustavo@gmail.com</a>
+                    </p>
+                    <p>
+                        ou você também pode me achar nessas redes sociais:
+                    </p>
+                    <a class="contato-linkedin" href="https://www.linkedin.com/in/gustavoux" target="_blank" rel="noopener noreferrer">
+                        <img src="./IMGs/footer/Linkedin.svg" alt="">
+                    </a>
+                    <div class="contato-btn">
+                        <a href="./Files/Curriculo-Gustavo_Eduardo-2022.pdf" target="_blank" rel="noopener noreferrer"><button class="contato-mainBTN">Currículo</button></a>
+                    </div>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <div class="logodiv">
+        <a href="/index.html" class="footer-logo">
+            <img src="IMGs/footer/footerlogo.svg" alt="Logo">
+        </a>
+        </div>
+        <nav class="footer-nav">
+            <ul>
+                <li><a class="footer-link" href="/contato.html">Contato</a></li>
+                <li><a class="footer-link" href="mailto: uxgustavo@gmail.com">
+                    <img src="./IMGs/footer/Email.svg" alt="">
+                </a></li>
+                <li><a class="footer-link" href="https://www.linkedin.com/in/gustavoux" target="_blank" rel="noopener noreferrer">
+                    <img src="./IMGs/footer/Linkedin.svg" alt="">
+                </a></li>
+            </ul>
+        </nav>
+    </footer>
+
+
+</body>
+<script>
+    const hamburger = document.querySelector(".hamburger-nav");
+    const navLinks = document.querySelector(".nav-links");
+    const links = document.querySelectorAll(".nav-links li");
+
+    hamburger.addEventListener("click", () => 
+    {navLinks.classList.toggle("open");})
+    ;
+;
+</script>
+</html>
+

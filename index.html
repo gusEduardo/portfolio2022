@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="./IMGs/favicon.svg">
+    <title>Portfólio UX | Gustavo Eduardo</title>
+</head>
+<body class="container">
+    <header class="main-header">
+        <div class="logodiv">
+            <a href="/index.html" class="header-logo">
+                <img src="IMGs/Logo3.svg" alt="Logo">
+            </a>
+        </div>
+        <nav class="header-nav">
+            <div class="hamburger-nav">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a class="header-link" href="/index.html">Projetos</a></li>
+                <li><a class="header-link" href="/sobremim.html">Sobre Mim</a></li>
+                <li><a class="header-link" href="/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="presentation">
+            <div class="introduction">
+                <div class="intro-text">
+                    <h1>Eai, beleza? Eu sou o Gustavo. 👋</h1>
+                    <p>
+                        Sou apaixonado por UX design e procuro trazer uma experiência acessível e agradável ao usuário.
+                    </p>
+                </div>
+                <div class="cta">
+                    <a href="#downProj"><button class="cta-MainBTN">Meus Projetos</button></a>
+                </div>
+            </div>
+            <div class="cover">
+                <img src="IMGS/AvatarCertoFIGMA.svg" alt="Sim, esse sou eu!">
+            </div>
+        </section>
+
+        <section class="projetos">
+            <div class="bgBorder">               
+            </div>
+            <div class="projIMG">
+                <img src="./IMGs/index_Projetos/sumicityDevices.svg" alt="">
+            </div>
+            <div class="projBOX" id="downProj">
+                <div class="projTXT">
+                    <h2>Redesign Index Sumicity</h2>
+                    <p>Um redesign focado em facilitar a experiência do usuário e também aumentar vendas. </p>
+                </div>
+                <div class="projBTN">
+                    <a href="./projeto_sumicity.html"><button class="cta-MainBTN">Ver Projeto</button></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <div class="logodiv">
+        <a href="/index.html" class="footer-logo">
+            <img src="IMGs/footer/footerlogo.svg" alt="Logo">
+        </a>
+        </div>
+        <nav class="footer-nav">
+            <ul>
+                <li><a class="footer-link" href="/contato.html">Contato</a></li>
+                <li><a class="footer-link" href="mailto: uxgustavo@gmail.com">
+                    <img src="./IMGs/footer/Email.svg" alt="">
+                </a></li>
+                <li><a class="footer-link" href="https://www.linkedin.com/in/gustavoux" target="_blank" rel="noopener noreferrer">
+                    <img src="./IMGs/footer/Linkedin.svg" alt="">
+                </a></li>
+            </ul>
+        </nav>
+    </footer>
+
+
+</body>
+<script>
+    const hamburger = document.querySelector(".hamburger-nav");
+    const navLinks = document.querySelector(".nav-links");
+    const links = document.querySelectorAll(".nav-links li");
+
+    hamburger.addEventListener("click", () => 
+    {navLinks.classList.toggle("open");})
+    ;
+;
+</script>
+</html>
+

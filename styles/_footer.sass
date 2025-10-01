@@ -1,0 +1,24 @@
+.main-footer
+    @include flexSpaceBetween()
+    height: 12%
+    width: 80%
+    margin: auto
+    margin-top: 180px
+    margin-bottom: 30px
+.footer-logo
+    img
+        width: 85px
+.footer-nav
+    ul
+        display: flex
+        list-style: none
+        justify-content: space-between
+        width: 200px
+
+.footer-link
+    @include headerFooterFont()
+    text-decoration: none
+    border-bottom: 0px solid #ffff
+    transition: border-bottom 0.2s ease-in
+    &:hover
+        border-bottom: 3px solid $primaryColor

@@ -1,0 +1,20 @@
+.main-header
+    @include flexSpaceBetween() // use '@include' to use
+    height: 60px
+
+.header-nav
+    ul
+        display: flex
+        list-style: none
+        width: 280px
+        justify-content: space-between
+        align-items: center
+        margin-left: auto
+
+.header-link
+    @include headerFooterFont()
+    text-decoration: none
+    border-bottom: 0px solid #ffff
+    transition: border-bottom 0.2s ease-in
+    &:hover
+        border-bottom: 3px solid $primaryColor

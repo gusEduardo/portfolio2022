@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="./IMGs/favicon.svg">
+    <title>Sobre Mim | Gustavo Eduardo</title>
+</head>
+<body class="container">
+    <header class="main-header">
+        <div class="logodiv">
+            <a href="/index.html" class="header-logo">
+                <img src="IMGs/Logo3.svg" alt="Logo">
+            </a>
+        </div>
+        <nav class="header-nav">
+            <div class="hamburger-nav">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a class="header-link" href="/index.html">Projetos</a></li>
+                <li><a class="header-link" href="/sobremim.html">Sobre Mim</a></li>
+                <li><a class="header-link" href="/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="sobremim-sect">
+                <div class="sobremim-text">
+                    <h1>Prazer, meu nome é Gustavo.</h1>
+                    <p>
+                        Tenho 24 anos e moro no estado do Rio de Janeiro. 
+                        Eu procuro criar experiências que todos possam usar e desfrutar. Acredito que como designer eu tenho a missão de me importar pelas pessoas que crio design.
+                    </p>
+                    <p>
+                        Desde pequeno, sempre tive o sonho de trabalhar na parte criativa de Sites ou Jogos, tendo minha primeira experiência com Web Design aos 12 anos. A partir daí, tenho o costume de olhar e avaliar o design de sites.
+                    </p>
+                    <p>
+                        Mas minha primeira escolha não foi trabalhar com sites. Me mudei para o Canadá para estudar 3D Modeling para jogos. Gostei muito do curso mas eu precisava de algo a mais. Voltando para o Brasil, decidi voltar a pesquisar mais sobre Design de Sites. Aprendi HTML, CSS, JS e várias outras ferramentas de desenvolvimento.
+                    </p>
+                    <p>
+                        Como eu “cheguei” em UX? Bom, depois de várias indicações de pessoas da área de desenvolvimento web, decidi olhar UX mais profundamente e acabei me apaixonando. Como eu disse anteriormente, sempre tive o costume de avaliar o design de sites e acabei encontrando no UX algo que sempre gostei. O desafio de criar um layout atrativo, que tenha valor, seja usável e também interessante é algo muito tentador e que sempre tentei realizar.
+                    </p>
+            </div>
+            <div class="sobremim-img">
+                <img src="/IMGs/contato/Face.png" alt="Eu denovo!">
+            </div>
+        </section>
+        <section class="sobremim-outros">
+            <div class="sobremim-text2">
+                <h1>
+                    Outras coisas que gosto de fazer
+                </h1>
+                <ul>
+                    <li>
+                        <p>
+                            <b>Fórmula 1 🏎️️</b> desde pequeno, assistia corrida com o meu pai. Sempre tento assistir as corridas e também sou um grande nerd por aerodinâmica e o design dos carros.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Tênis 🎾️</b> sempre que posso, tento ir pra quadra jogar um pouco.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Competir ⚔️</b> não importa onde, sempre fui muito competitivo e sempre me inscrevi em campeonatos de diversas atividades diferentes.                   
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b>Jogos 🎮️️</b> também desde pequeno, sempre estava jogando algo. Hoje em dia amo jogar com meus amigos no meu tempo livre. Meu jogo favorito provavelmente é Ragnarok Online e hoje em dia tenho jogado Pokemon, League of Legends e um pouco de Fórmula 1.                    
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <div class="logodiv">
+        <a href="/index.html" class="footer-logo">
+            <img src="IMGs/footer/footerlogo.svg" alt="Logo">
+        </a>
+        </div>
+        <nav class="footer-nav">
+            <ul>
+                <li><a class="footer-link" href="/contato.html">Contato</a></li>
+                <li><a class="footer-link" href="mailto: uxgustavo@gmail.com">
+                    <img src="./IMGs/footer/Email.svg" alt="">
+                </a></li>
+                <li><a class="footer-link" href="https://www.linkedin.com/in/gustavoux" target="_blank" rel="noopener noreferrer">
+                    <img src="./IMGs/footer/Linkedin.svg" alt="">
+                </a></li>
+            </ul>
+        </nav>
+    </footer>
+
+
+</body>
+<script>
+    const hamburger = document.querySelector(".hamburger-nav");
+    const navLinks = document.querySelector(".nav-links");
+    const links = document.querySelectorAll(".nav-links li");
+
+    hamburger.addEventListener("click", () => 
+    {navLinks.classList.toggle("open");})
+    ;
+;
+</script>
+</html>
+

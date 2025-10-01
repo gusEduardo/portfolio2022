@@ -1,0 +1,41 @@
+.contato-sect
+    @include flexCenter()
+    width: 50%
+    margin: auto
+    min-height: 70vh
+    text-align: center
+
+.contato-text
+    h1
+        font-size: 50px
+        font-weight: 600
+
+    p
+        font-size: 25px
+        font-weight: 300
+
+    .contato-email
+        padding-top: 8px
+        padding-bottom: 5px
+        a
+            font-weight: 500
+            text-decoration: none
+            background-color: $primaryColor
+            color: $textColor
+
+    .contato-linkedin
+        img
+            margin-top: 5px
+            width: 24px
+            height: 24px
+            transition: color .3s ease-in
+            &:hover
+                color: $primaryColor
+.contato-btn
+    padding: 5px 0 0 0
+
+.contato-mainBTN
+    @include buttonBasic()
+    font-size: 25px
+    width: 320px
+    height: 52px
